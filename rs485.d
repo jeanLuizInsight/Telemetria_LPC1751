@@ -1,0 +1,14 @@
+.\rs485.o: rs485.c
+.\rs485.o: C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h
+.\rs485.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\rs485.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\rs485.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\rs485.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\rs485.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+.\rs485.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\rs485.o: rs485.h
+.\rs485.o: gpio.h
+.\rs485.o: uart.h
+.\rs485.o: timer.h
+.\rs485.o: application.h
+.\rs485.o: comandos_dados_sensor.h

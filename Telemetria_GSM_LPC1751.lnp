@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\system_lpc17xx.o"
+".\main.o"
+".\gpio.o"
+".\uart.o"
+".\wdt.o"
+".\timer.o"
+".\sim900.o"
+".\application.o"
+".\rs485.o"
+".\comandos_dados_sensor.o"
+".\lcd.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Telemetria_GSM_LPC1751.map" -o .\Telemetria_GSM_LPC1751.axf

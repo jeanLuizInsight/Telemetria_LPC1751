@@ -1,0 +1,30 @@
+*** Creating Trace Output File 'Telemetria_GSM_LPC1751.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"wdt.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"sim900.o"'
+### List of Objects: adding '"application.o"'
+### List of Objects: adding '"rs485.o"'
+### List of Objects: adding '"comandos_balanca.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "system_lpc17xx.o" "main.o" "gpio.o" "lcd.o" "uart.o" "wdt.o" "timer.o" "sim900.o" "application.o" "rs485.o" "comandos_balanca.o" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Telemetria_GSM_LPC1751.map" -o Telemetria_GSM_LPC1751.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Telemetria_GSM_LPC1751.axf'
+### ADS-LD Command File: 'Telemetria_GSM_LPC1751.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Telemetria_GSM_LPC1751.lnp', Handle=0x00000214
+### Writing '.lnp' file
+### ADS-LD Command file 'Telemetria_GSM_LPC1751.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

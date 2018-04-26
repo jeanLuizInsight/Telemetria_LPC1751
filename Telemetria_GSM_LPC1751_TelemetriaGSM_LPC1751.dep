@@ -1,0 +1,145 @@
+Dependencies for Project 'Telemetria_GSM_LPC1751', Target 'TelemetriaGSM_LPC1751': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x52FCB90B)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\system_LPC17xx.c)(0x524C8C64)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\LPC17xx.h)(0x4FF5A6B8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+F (.\main.c)(0x5475A7B6)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C86004)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\application.h)(0x54202043)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\sim900.h)(0x53E8CA98)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\uart.h)(0x53E388BB)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\timer.h)(0x53E386F7)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\gpio.h)(0x53E386E9)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\rs485.h)(0x54106622)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C86004)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\wdt.h)(0x544A1A21)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\comandos_dados_sensor.h)(0x54183AEB)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\telemetria.h)(0x546F1CF0)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\lcd.h)(0x53E38E69)
+F (.\gpio.c)(0x53F74B69)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+F (.\uart.c)(0x5458A7CF)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\timer.h)(0x53E386F7)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\type.h)(0x53E385BB)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\uart.h)(0x53E388BB)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\rs485.h)(0x54106622)
+F (.\wdt.c)(0x544A1A21)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\wdt.o --omf_browse .\wdt.crf --depend .\wdt.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\wdt.h)(0x544A1A21)
+F (.\timer.c)(0x53E3935D)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\timer.h)(0x53E386F7)
+F (.\sim900.c)(0x5475A383)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\sim900.o --omf_browse .\sim900.crf --depend .\sim900.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\sim900.h)(0x53E8CA98)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\uart.h)(0x53E388BB)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C86004)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\timer.h)(0x53E386F7)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\gpio.h)(0x53E386E9)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\lcd.h)(0x53E38E69)
+F (.\application.c)(0x5475A2DF)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\application.o --omf_browse .\application.crf --depend .\application.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C86004)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C86004)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\timer.h)(0x53E386F7)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\rs485.h)(0x54106622)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\uart.h)(0x53E388BB)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\sim900.h)(0x53E8CA98)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\application.h)(0x54202043)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\lcd.h)(0x53E38E69)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\comandos_dados_sensor.h)(0x54183AEB)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\telemetria.h)(0x546F1CF0)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\wdt.h)(0x544A1A21)
+F (.\rs485.c)(0x54550E9B)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\rs485.o --omf_browse .\rs485.crf --depend .\rs485.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C86004)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\rs485.h)(0x54106622)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\gpio.h)(0x53E386E9)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\uart.h)(0x53E388BB)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\timer.h)(0x53E386F7)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\application.h)(0x54202043)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\comandos_dados_sensor.h)(0x54183AEB)
+F (.\comandos_dados_sensor.c)(0x541846B1)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\comandos_dados_sensor.o --omf_browse .\comandos_dados_sensor.crf --depend .\comandos_dados_sensor.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\comandos_dados_sensor.h)(0x54183AEB)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\application.h)(0x54202043)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\rs485.h)(0x54106622)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\uart.h)(0x53E388BB)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\timer.h)(0x53E386F7)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C86004)
+F (.\lcd.c)(0x54577E45)(-c --cpu Cortex-M3 -D__EVAL -g -O1 --apcs=interwork -IC:\Keil\ARM\INC\NXP\LPC17xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x51C85988)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C85E0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C85E0A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C85E0A)
+I (C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x51C85988)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\timer.h)(0x53E386F7)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\lcd.h)(0x53E38E69)
+I (D:\Unoesc\fase 10ª\TCC III\Projeto hardware III\Firmware\Telemetria_LPC1751\gpio.h)(0x53E386E9)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C86004)
+F (.\gpio.h)(0x53E386E9)()
+F (.\timer.h)(0x53E386F7)()
+F (.\uart.h)(0x53E388BB)()
+F (.\wdt.h)(0x544A1A21)()
+F (.\type.h)(0x53E385BB)()
+F (.\sim900.h)(0x53E8CA98)()
+F (.\application.h)(0x54202043)()
+F (.\rs485.h)(0x54106622)()
+F (.\telemetria.h)(0x546F1CF0)()
+F (.\comandos_dados_sensor.h)(0x54183AEB)()
+F (.\lcd.h)(0x53E38E69)()

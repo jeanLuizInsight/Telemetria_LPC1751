@@ -1,0 +1,13 @@
+.\sim900.o: sim900.c
+.\sim900.o: C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h
+.\sim900.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\sim900.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\sim900.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\sim900.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\sim900.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+.\sim900.o: sim900.h
+.\sim900.o: uart.h
+.\sim900.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\sim900.o: timer.h
+.\sim900.o: gpio.h
+.\sim900.o: lcd.h
